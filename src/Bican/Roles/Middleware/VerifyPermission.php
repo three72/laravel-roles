@@ -39,7 +39,7 @@ class VerifyPermission
             return $next($request);
         }
 
-        return response('Forbidden: Permission Denied.', 403);
+        throw new PermissionDeniedException($permission);
     }
 
 }
