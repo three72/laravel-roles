@@ -1,5 +1,5 @@
 {
-    "name": "nikolaynesov/laravel-roles",
+    "name": "three72/laravel-roles",
     "description": "Powerful package for handling roles and permissions in Laravel 5",
     "keywords": ["roles", "permissions", "acl", "auth", "laravel", "illuminate"],
     "license": "MIT",
