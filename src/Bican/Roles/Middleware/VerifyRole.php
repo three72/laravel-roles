@@ -30,7 +30,7 @@ class VerifyRole
             return $next($request);
         }
 
-        return response('Forbidden: Role Denied.', 403);
+        throw new RoleDeniedException($role);
         
     }
 
